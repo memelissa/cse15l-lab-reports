@@ -14,5 +14,11 @@
 
 ![Connecting to Server](https://github.com/memelissa/cse15l-lab-reports/blob/main/RemoteConnecting.png)
 
+    In order to connect to a remote computer, I had to look up my course-specific account for CSE15L, as seen within the first picture. By doing so, we can now verify that we can connect to the SSH host by running the given command in the Terminal: ssh cs15lwi22zz@ieng6.ucsd.edu. Using the course-specific account I obtained earlier, I successfully connected my terminal to a remote host. 
+
+3. Trying Some Commands
+
+
+
 
 
