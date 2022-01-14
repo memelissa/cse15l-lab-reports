@@ -23,6 +23,10 @@ In order to connect to a remote computer, I had to look up my course-specific ac
 
 As seen within the picture, I am running a variety of commands on the remote compter after ssh-ing. For example, the cd command (change directory) is used to change the current working directory and move between different directories. In addition to this, the ls command can be utilized to list files, whereas ls ~a will display all the files including ones that are hidden.
 
+4. Moving Files with scp
+
+![SCP](https://github.com/memelissa/cse15l-lab-reports/blob/main/scp.png)
+
 
 
 
