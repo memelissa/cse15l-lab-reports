@@ -27,6 +27,14 @@ As seen within the picture, I am running a variety of commands on the remote com
 
 ![SCP](scp.png)
 
+When working remotely, I am able to copy files from the local directory of my computer to a remote sever such as ieng6. In this case, I am copying the file titled WhereAmI.java. Afterwards, I used the command, ls, to show that the file can be found in my home directory. I am now able to run the java file using javac and java on my computer. 
+
+5. Setting an SSH Key
+
+![SSH Key](SSHkeys.png)
+
+6. Optimizing Remote Running
+
 
 
 
