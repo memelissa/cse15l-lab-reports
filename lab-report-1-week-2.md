@@ -3,6 +3,7 @@
 
 1. Installing VScode
 
+
 ![Installing Visual Studio Code](Installing.png)
 
 ![Opening Visual Studio Code](OpeningPage.png)
@@ -32,6 +33,8 @@ When working remotely, I am able to copy files from the local directory of my co
 5. Setting an SSH Key
 
 ![SSH Key](SSHkeys.png)
+
+
 
 6. Optimizing Remote Running
 
