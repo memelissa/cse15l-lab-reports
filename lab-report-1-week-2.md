@@ -102,7 +102,6 @@ ssh cs15lwi22@ieng6.ucsd.edu "<command>"
 ```
 
 - Additionally, we can separate multiple commands written on the same line with semicolons: 
-
 ```
 cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 ```
