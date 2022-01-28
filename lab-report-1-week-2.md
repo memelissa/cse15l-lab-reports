@@ -107,6 +107,7 @@ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 ```
 
 - In order to cut down the amount of keystrokes required to make a local edit to WhereAmI.java, copy it to the remote server and run it, I used the commands: 
+
 ```
 ssh cs15lwi22amn@ieng6.ucsd.edu 
 
