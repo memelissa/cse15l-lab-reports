@@ -110,7 +110,6 @@ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 
 ```
 ssh cs15lwi22amn@ieng6.ucsd.edu 
-
 cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 ```
 
