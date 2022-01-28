@@ -92,7 +92,20 @@ $ scp /Users/melissaphan/.ssh/id_rsa.pub cs15lwi22amn@ieng6.ucsd.edu :~/.ssh/aut
 
 ![SSH Login](SSHLogin.png)
 
-6. Optimizing Remote Running
+## Step 6: Optimizing Remote Running
+
+- With ssh-keygen now established, we can try to make quicker and easier local edits to `WhereAmI.java`.
+
+- Some examples include writting a command in quotes after an `ssh` command to run it directly on the remote server and then exit, such as: 
+```
+ssh cs15lwi22@ieng6.ucsd.edu "<command>"
+```
+
+- Additionally, we can separate multiple commands written on the same line with semicolons: 
+
+```
+cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
+```
 
 
 
