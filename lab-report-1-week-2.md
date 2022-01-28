@@ -19,7 +19,7 @@
 
 - Next, we will open a terminal in VS Code by using Ctrl or Command + `, or use the Terminal --> New Terminal menu option.
 
-- Enter the command, ``ssh cs15lwi22zz@ieng6.ucsd.edu``, but replace the `zz` with your course-specific account.
+- Enter the command, `ssh cs15lwi22zz@ieng6.ucsd.edu`, but replace the `zz` with your course-specific account.
 
 - If this is the first time connecting to the server, a message may ask if you want to continue connecting to the remote host. Type `yes` and press enter, then enter your password. This process should look similar to picture presented below. The terminal is now connected to the remote server!
 
@@ -42,11 +42,30 @@
 
 ## Step 4: Moving Files over SSH with scp
 
+- `scp` is a command line that allows us to securely copy files and directories between computers when working remotely.
+
+- First, we will create a new file called `WhereAmI.java` with the  following contents in it:
+
+```
+    class WhereAmI {
+        public static void main(String[] args) {
+            System.out.println(System.getProperty("os.name"));
+            System.out.println(System.getProperty("user.name"));
+            System.out.println(System.getProperty("user.home"));
+            System.out.println(System.getProperty("user.dir"));
+        }
+    }
+```
+-  Next, in the terminal from the directory where we made the `WhereAmI.java` file, run the command with your course-specific account: 
+
+```
+scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/
+```
+- This command should be prompted for a password. Then, if we log into ieng6 with ssh again and use the command `ls`, the file can now be found in the home directory. We can now run it on the ieng6 computer using `javac` and `java`. 
+
 ![SCP](scp.png)
 
-When working remotely, I am able to copy files from the local directory of my computer to a remote sever such as ieng6. In this case, I am copying the file titled WhereAmI.java. Afterwards, I used the command, ls, to show that the file can be found in my home directory. I am now able to run the java file using javac and java on my computer. 
-
-5. Setting an SSH Key
+## Step 5: Setting an SSH Key
 
 ![SSH Key](SSHkeys.png)
 
