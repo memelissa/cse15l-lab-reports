@@ -107,6 +107,10 @@ ssh cs15lwi22@ieng6.ucsd.edu "<command>"
 cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 ```
 
+- In order to cut down the amount of keystrokes required to make a local edit to WhereAmI.java, copy it to the remote server and run it, I used the command: `ssh cs15lwi22amn@ieng6.ucsd.edu "cat WhereAmI.java"`.
+
+- Initially, 54 keystrokes were used, 33 to type `ssh cs15lwi22amn@ieng6.ucsd.edu` + enter, and 21 to type `cat WhereAmI.java` + enter. However, this can be reduced by using the up-arrow on the keyboard to recall the last command that was run, resulting in the 4 keystrokes (up-key + enter, repeated). Again, this can be further simplified by using the `ssh cs15lwi22amn@ieng6.ucsd.edu "cat WhereAmI.java"` to run the command on one line. This initially requires more keystrokes at first, but up-key allows me to access this previously written command.
+
 
 
 
