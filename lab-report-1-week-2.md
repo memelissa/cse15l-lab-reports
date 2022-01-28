@@ -67,9 +67,28 @@ scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/
 
 ## Step 5: Setting an SSH Key
 
+- An `ssh` key is an access credential that is used when accessing the SSH protocol. Ultimately, `ssh` keys provides the user to securely access a remote computer without the need for a password. 
+
+- To begin with, enter the command, `ssh-keygen`, which should prompt the message asking us to "Entire file in which to save the key". Using your username, enter the following path: "/Users/melissaphan/.ssh/id_rsa". 
+
+- Proceed to follow the prompted messages should result in the following output: 
+
 ![SSH Key](SSHkeys.png)
 
-An SSH key is an access credential that is used when accessing the SSH protocol. Ultimately, SSH keys provides the user to securely access a remote computer without the need for a password. As seen within the picture, I was able to run the program, ssh-keygen, which allowed me to create the files, public key in the server, and private key on the client. These are stored in the .ssh directory of the computer, allowing me to use these files in place of my password. At this point, I have successfully created these files but I am still unable to ssh without entering my password. 
+- By doing so, we have created two new files, the private key (in a file `id_rsa`) and the public key (in a file `id_rsa.pub`), which is now stored in the .ssh directory on your computer.
+
+- Lastly, in order to copy the public key to `.ssh` directory on the user account on the server.
+
+```
+$ ssh cs15lwi22zz@ieng6.ucsd.edu
+<Enter Password>
+# now on server
+$ mkdir .ssh
+$ <logout>
+# back on client
+$ scp /Users/melissaphan/.ssh/id_rsa.pub cs15lwi22amn@ieng6.ucsd.edu :~/.ssh/authorized_keys
+```
+- We are now able to `ssh` and `scp` without entering your password. 
 
 ![SSH Login](SSHLogin.png)
 
