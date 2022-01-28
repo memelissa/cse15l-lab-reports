@@ -36,6 +36,8 @@ When working remotely, I am able to copy files from the local directory of my co
 
 An SSH key is an access credential that is used when accessing the SSH protocol. Ultimately, SSH keys provides the user to securely access a remote computer without the need for a password. As seen within the picture, I was able to run the program, ssh-keygen, which allowed me to create the files, public key in the server, and private key on the client. These are stored in the .ssh directory of the computer, allowing me to use these files in place of my password. At this point, I have successfully created these files but I am still unable to ssh without entering my password. 
 
+![SSH Login](SSHLogin.png)
+
 6. Optimizing Remote Running
 
 
