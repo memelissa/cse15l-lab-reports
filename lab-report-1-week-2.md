@@ -1,4 +1,3 @@
-# Lab Report 1
 # How to Log Into a Course-Specific Account on `ieng6`:
 
 ## Step 1: Installing Visual Studio Code
@@ -20,7 +19,7 @@
 
 - Next, we will open a terminal in VS Code by using Ctrl or Command + `, or use the Terminal --> New Terminal menu option.
 
-- Enter the command, `ssh cs15lwi22zz@ieng6.ucsd.edu`, but replace the `zz` with your course-specific account.
+- Enter the command, ``ssh cs15lwi22zz@ieng6.ucsd.edu``, but replace the `zz` with your course-specific account.
 
 - If this is the first time connecting to the server, a message may ask if you want to continue connecting to the remote host. Type `yes` and press enter, then enter your password. This process should look similar to picture presented below. The terminal is now connected to the remote server!
 
