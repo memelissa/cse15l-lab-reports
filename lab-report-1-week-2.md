@@ -113,7 +113,7 @@ ssh cs15lwi22amn@ieng6.ucsd.edu
 cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 ```
 
-- By using the up-key, I was able to access previously written commands, such as `ssh cs15lwi22amn@ieng6.ucsd.edu `, which used 2 keystroke (up-key + enter/return). Then, I copied the given command line, `cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`, which allows me to run multiple commands within one line. This took 5 keystrokes to complete, command + c to copy and command + v to paste and enter/return. The result of the following commands ouputs the edit made to the WhereAmI.java file, which can be seen within the line `System.out.println("hello!");`.
+- By using the up-key, I was able to access previously written commands, such as `ssh cs15lwi22amn@ieng6.ucsd.edu `, which used 2 keystroke (up-key + enter/return). Then, I copied the given command line, `cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`, which allows me to run multiple commands within one line. This took 5 keystrokes to complete, command + c to copy and command + v to paste and enter/return. In total, 7 keystrokes were used to make a local edit. The result of the following commands ouputs the edit made to the WhereAmI.java file, which can be seen within the line `System.out.println("hello!");`.
 
 ![Long](keystrokes.png)
 ![Short](newfile.png)
