@@ -15,3 +15,7 @@ Another problem we encountered occured when the program was unable to read a bro
 ### Code Change Diff from Github Screenshot:
 ![Broken Link](broken.png)
 
+### [Link to Test File With Failure Inducing Input: brokenlink.md](https://github.com/memelissa/markdown-parse/blob/main/BrokenLink.md)
+
+
+
