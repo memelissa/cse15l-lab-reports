@@ -19,8 +19,15 @@ Another problem we encountered occured when the program was unable to read a bro
 
 ## Code Change 3: Image Links
 
-The last problem we accounted for occured when an link to an image was printed as an output, when this should not have occured when the given code is to return is expected to return website links. In this case, the failure-inducing input was a file containing an image link that was written in Markdown formate, which is often written as `![](image.png) `. Therefore, the bug in the original code was able to identify the first and proceeding bracket, including the parentheses that contained the given url. The symption was the return of the link in the output. Lastly, a solution to the code was made through the utilization of conditional statements that checked if the character, "!", preceeded the first open bracket, allowing the code to ignore the image link. 
+**Link to file with failure-inducing input:** [BrokenImage.md](https://github.com/memelissa/cse15l-lab-reports/blob/main/BrokenImage.md)
 
-**Link to failure-inducing input:** 
+### Code Change from Github & Symptom
+
+![Broken Link](brokenimage.png)
+
+![Broken Link](imagesymp.png)
+
+The last problem occured when an link to an image was printed as an output, when this should not have occured when the given code is to return is expected to return website links. In this case, the failure-inducing input was a file containing an image link that was written in Markdown formate, which is often written as `![](image.png) `. Therefore, the bug in the original code was able to identify the first and proceeding bracket, including the parentheses that contained the given url. The symption was the return of the link in the output. Lastly, a solution to the code was made through the utilization of conditional statements that checked if the character, "!", preceeded the first open bracket, allowing the code to ignore the image link. 
+
 
 
