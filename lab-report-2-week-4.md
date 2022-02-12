@@ -2,13 +2,15 @@
 
 ## Code Change 1: Multiple Links in the Same Line
 
-A issue we encountered within
+A issue
 
 ### Code Change Diff from Github Screenshot:
 ![Muliple Links](multi.png)
 
 
-## Code Change 2: Broken Links
+## Code Change 2: File With No Link
+
+Another problem we accounted for occured when a test file did not contain any properly formated links. In this case, the failure-inducing input was a file that simply contained no links. Therefore, the symptom presented is a StringIndexOutofBoundsException
 
 Another problem we encountered occured when the program was unable to read a broken link. The failure-inducing input consisted of a link that was incorrectly formatted and/or was not an actual working link. 
 
