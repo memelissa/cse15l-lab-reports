@@ -2,8 +2,6 @@
 
 ## Code Change 1: No Command Line Argument 
 
-A problem we encountered occured when the program was not given an argument in the command line. The failure-inducing input that produced this error was the result of not including/referencing a test file when running the command, `java MarkdownParse`. Therefore, the bug in the program can be found in the main method when it tries to access `args[0]` when no test file was presented, resulting in the symptom that presented an `ArrayIndexOutOfBoundsException` error. This bug can be fixed with the addition of an `if-statement` that checks for an argument. 
-
 **Link to file with failure-inducing input:** In this case, there is no test file that results in a failure-indicing input because the bug occurs when a test file argument is not passed in the command line. 
 
 ### Code Change from Github & Symptom
@@ -12,9 +10,7 @@ A problem we encountered occured when the program was not given an argument in t
 
 ![No Args](noargsymp.png)
 
-
-
-
+A problem we encountered occured when the program was not given an argument in the command line. The failure-inducing input that produced this error was the result of not including/referencing a test file when running the command, `java MarkdownParse`. Therefore, the bug in the program can be found in the main method when it tries to access `args[0]` when no test file was presented, resulting in the symptom that presented an `ArrayIndexOutOfBoundsException` error. This bug can be fixed with the addition of an `if-statement` that checks for an argument.
 
 ## Code Change 2: File With No Link
 
