@@ -11,7 +11,7 @@ A issue
 ## Code Change 2: File With No Link
 
 Another problem we accounted for occured when a test file did not contain any properly formatted links. In this case, the failure-inducing input was a file that simply contained no links. 
-The symptom presented an StringIndexOutofBoundsException error which indicates that an index is either negative or greater than the size of the string. Instead, it should have returned an empty arraylist because there was no links found within the file. With this in mind, the bug in the given code might be referring to 
+The symptom presented an StringIndexOutofBoundsException error which indicates that an index is either negative or greater than the size of the string. Instead, it should have returned an empty arraylist because there was no links found within the file. With this in mind, the bug in the given code might be referring to the inability of being able to idenitify missing brackets and parenthesis. This bug can be fixed with the addition of an if-statement that is used to catch the cases where empty files containing no links were given as an input. 
 
 
 
