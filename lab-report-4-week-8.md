@@ -4,7 +4,7 @@
 
 **Link to Group Reviewed MarkdownParse Repository:** [Group Reviewed MarkdownParse Repository](https://github.com/Stocktocon/markdown-parse)
 
-## Expected Output for Each Snippet 
+## Expected Output for Each Snippet:
 
 1. Snippet 1: ``["`google.com", "google.com", "ucsd.edu"]``
 
@@ -12,9 +12,12 @@
 
 3. Snippet 3:``[https://www.twitter.com, https://ucsd-cse15l-w22.github.io/, https://cse.ucsd.edu/]``
 
-## Code for Tests from MarkdownParse.java
+## Code for Tests from MarkdownParse.java:
 
 ![SnippetTests](sniptests.png)
 
-## Code for Tests from MarkdownParseTest.java
+## JUnit Testing Output:
+
+![SnippetTests](JUnitOutput.png)
+
 
