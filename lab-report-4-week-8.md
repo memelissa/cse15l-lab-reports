@@ -11,7 +11,8 @@
 
 2. Snippet 2:``["a.com", "a.com(()), "example.com"]``
 
-3. Snippet 3:``["https://ucsd-cse15l-w22.github.io/"]``
+3. Snippet 3:``[https://www.twitter.com, https://ucsd-cse15l-w22.github.io/, https://cse.ucsd.edu/]``
+
 
 
 
