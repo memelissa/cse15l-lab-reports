@@ -8,12 +8,13 @@
 
 1. Snippet 1: ``["`google.com", "google.com", "ucsd.edu"]``
 
-
 2. Snippet 2:``["a.com", "a.com(()), "example.com"]``
 
 3. Snippet 3:``[https://www.twitter.com, https://ucsd-cse15l-w22.github.io/, https://cse.ucsd.edu/]``
 
+## Code for Tests from MarkdownParse.java
 
+![SnippetTests](sniptests.png)
 
-
+## Code for Tests from MarkdownParseTest.java
 
