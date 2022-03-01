@@ -12,7 +12,7 @@
 
 3. Snippet 3:`[https://www.twitter.com, https://ucsd-cse15l-w22.github.io/, https://cse.ucsd.edu/]`
 
-## Code for Tests from MarkdownParse.java:
+## Code for Tests from my MarkdownParse.java:
 
 ![SnippetTests](sniptests.png)
 
@@ -27,5 +27,8 @@ There were 3 failures:
 2) snippet2Test(MarkdownParseTest)...
 3) testFile2(MarkdownParseTest)...
 ```
+## JUnit Testing Output of Group Reviewed Repository:
+
+![SnippetTests](JUnitOutput2.png)
 
 
