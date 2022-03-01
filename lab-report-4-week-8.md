@@ -48,6 +48,7 @@ code change, which would involve implementing code that would check for the inde
 
 2. Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.
 
+For snippet 2, a small (<10 lines) code change can  account for parentheses, brackets, and escaped brackets. In this case, we may consider utilizing a while loop with an int variable that increments at every open bracket/parentheses and decreases in value with every close bracket/parentheses. If the count reaches or is greater than 1, the outer parantheses/brackets are ignored and the innor ones are treated as the links.
 
 
 3. Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.
