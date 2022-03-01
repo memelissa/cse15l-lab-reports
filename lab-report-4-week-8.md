@@ -8,9 +8,9 @@
 
 1. Snippet 1: ``["`google.com", "google.com", "ucsd.edu"]``
 
-2. Snippet 2:``["a.com", "a.com(()), "example.com"]``
+2. Snippet 2:`["a.com", "a.com(()), "example.com"]`
 
-3. Snippet 3:``[https://www.twitter.com, https://ucsd-cse15l-w22.github.io/, https://cse.ucsd.edu/]``
+3. Snippet 3:`[https://www.twitter.com, https://ucsd-cse15l-w22.github.io/, https://cse.ucsd.edu/]`
 
 ## Code for Tests from MarkdownParse.java:
 
@@ -19,5 +19,13 @@
 ## JUnit Testing Output:
 
 ![SnippetTests](JUnitOutput.png)
+
+The tests for Snippet1, Snippet2, Snippet3 failed, as seen within the terminal which states, 
+```
+There were 3 failures:
+1) snippet1Test(MarkdownParseTest)...
+2) snippet2Test(MarkdownParseTest)...
+3) testFile2(MarkdownParseTest)...
+```
 
 
