@@ -20,7 +20,7 @@
 
 ![SnippetTests](JUnitOutput.png)
 
-The tests for Snippet1, Snippet2, Snippet3 failed, as seen within the terminal which states, 
+The tests for Snippet1, Snippet2, Snippet3 failed, as seen within the terminal which states:
 ```
 There were 3 failures:
 1) snippet1Test(MarkdownParseTest)...
@@ -30,5 +30,13 @@ There were 3 failures:
 ## JUnit Testing Output of Group Reviewed Repository:
 
 ![SnippetTests](JUnitOutput2.png)
+
+The tests for Snippet1, Snippet2, Snippet3 failed, as seen within the terminal which states:
+```
+There were 3 failures:
+1) snippet1Test(MarkdownParseTest)...
+2) snippet2Test(MarkdownParseTest)...
+3) testFile2(MarkdownParseTest)...
+```
 
 
