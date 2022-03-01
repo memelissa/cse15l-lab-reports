@@ -39,4 +39,18 @@ There were 3 failures:
 3) testFile2(MarkdownParseTest)...
 ```
 
+## Questions
+
+1. Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.
+
+In regards to snippet 1, the code was unable to recognize the backticks within the given input. With this in mind, the issue could be resolved with a small (<10 lines)
+code change, which would involve implementing code that would check for the index of the next occuring `. By determining the indexes of the backticks, we can check if the index of the next backtick is within two indexes of the first backtick to ensure that it will be dismissed. 
+
+
+2. Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.
+
+3. Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.
+
+
+
 
