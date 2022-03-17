@@ -7,9 +7,14 @@ In order to find the tests with different results by using the command, `diff ma
 ## Test 1: File 495
 
 ### Preview Image Output:
-
+![File495](495.png)
 
 ### Output of Both Implementations:
+![File494](494diff.png)
+
+
+
+
 
 
 ## Test 2: File 494
